@@ -5,39 +5,103 @@
 }
 
 body {
-    background: rgb(43, 37, 37);
+    background: black;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 .dadoscliente {
-    background-color: red;
-    text-align: center; 
+    background-color: rgb(27, 27, 27);
+    width: 1145px;
+    margin-left: 125px;
+}
+
+.dadoscliente li {
+    display: inline-flex;
+    justify-content: space-between; 
+    margin-left: 200px;  
+}
+
+.quadro p {
+    text-align: center;
+    color: royalblue;
 }
 
 .legalizacao {
-    background: violet;
-    width: 900px;
-    height: 150px;
-    margin-left: 200px;
+    background: rgb(27, 27, 27);
+    width: 1145px;
+    height: 60px;
+    margin-left: 125px;
+}
+
+.legalizacao li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(95, 80, 80);
+}
+
+.legalizacao li:hover {
+    color: white;
 }
 
 .contabil {
-    background-color: aqua;
-    width: 900px;
-    height: 400px;
-    margin-left: 200px;
+    background: rgb(27, 27, 27);
+    width: 1145px;
+    height: 60px;
+    margin-left: 125px;
+}
+
+.contabil li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(95, 80, 80);
 }
 
 .fiscal {
-    background-color: brown;
-    width: 900px;
-    height: 400px;
-    margin-left: 200px;
+    background: rgb(27, 27, 27);
+    width: 1145px;
+    height: 60px;
+    margin-left: 125px;
+}
+
+.fiscal li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(95, 80, 80);
 }
 
 .dp {
-    background-color: gold;
-    width: 900px;
-    height: 400px;
-    margin-left: 200px;
+    background: rgb(27, 27, 27);
+    width: 1145px;
+    height: 60px;
+    margin-left: 125px;
+}
+
+.dp li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(95, 80, 80);
+}
+
+.parcelamentos {
+    background: rgb(27, 27, 27);
+    width: 1145px;
+    height: 60px;
+    margin-left: 125px;
+}
+
+.parcelamentos li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(95, 80, 80);
 }
