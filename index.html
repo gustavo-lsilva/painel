@@ -6,21 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    
+    <script>
+        function
+         funcao01()
+         {alert("você clicou em acessar, redirecionando para próxima página");}
+    </script>
+
     <title>Home</title>
 </head>
 <body>
     <div class="meio">
         <img class="logo" src="./img/logo.png" alt="Logo da Complet">
-        <form class="formlogin" action="formlogin">
+        <form class="formlogin" action="areacliente.html">
             <label for="login">Login</label>
                 <input class="login" type="login">
             <label for="senha">Senha</label>
                 <input class="senha" type="password" name="senha" id="senha" autocomplete="currente-password">
-            <button class="button">Acessar</button>
+            <button class="button" onclick="funcao01()"">Acessar</button>
         </form>
         <div class="textos">
             <p class="psuporte">Suporte: (21) 99239-0061</p>
             <p class="pversao">Versão: 001</p>
+
         </div>
     </div>
 </body>
